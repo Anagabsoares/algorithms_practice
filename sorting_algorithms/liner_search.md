@@ -4,8 +4,8 @@
 >The number of operations grows (time) as the number of elements in the list increases.
 
 >def check_value(lista:list(), value:int) -> int:
-    for item in lista:
-        if item == value:
-            return lista.index(item)
-    return -1
+    >for item in lista:
+        >if item == value:
+            >return lista.index(item)
+    >return -1
     
